@@ -57,8 +57,6 @@ module.json                         Foundry module manifest
 scripts/module.js                   Token HUD hook and inspector application
 templates/actor-inspector.hbs       Inspector window markup
 styles/actor-inspector.css          Inspector window styling
-character_info.json                 Sample PF2e actor export/reference data
-character-inspection-cheat-sheet.md PF2e actor inspection notes
 ```
 
 ## Current Limitations
