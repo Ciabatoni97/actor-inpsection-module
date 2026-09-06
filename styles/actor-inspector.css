@@ -1,0 +1,59 @@
+.actor-inspector-window {
+  min-width: 280px;
+}
+
+.actor-inspector-content {
+  padding: 8px;
+}
+
+.actor-inspector-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+
+  border-bottom: 1px solid var(--color-border-light-2);
+}
+
+.actor-inspector-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.actor-inspector-level {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.actor-inspector-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.actor-inspector-stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 6px 8px;
+
+  border: 1px solid var(--color-border-light-2);
+  border-radius: 4px;
+
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.actor-inspector-stat .label {
+  font-weight: bold;
+}
+
+.actor-inspector-stat .value {
+  font-size: 1rem;
+}
+
+.actor-inspection-button {
+  cursor: pointer;
+}

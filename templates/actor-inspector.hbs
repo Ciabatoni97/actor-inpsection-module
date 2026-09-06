@@ -1,0 +1,45 @@
+<div class="actor-inspector-content">
+
+  <div class="actor-inspector-header">
+    <div class="actor-inspector-name">
+      {{actor.name}}
+    </div>
+
+    <div class="actor-inspector-level">
+      Level {{actor.level}}
+    </div>
+  </div>
+
+  <div class="actor-inspector-stats">
+
+    <div class="actor-inspector-stat">
+      <span class="label">HP</span>
+      <span class="value">
+        {{actor.hp.current}} / {{actor.hp.max}}
+      </span>
+    </div>
+
+    <div class="actor-inspector-stat">
+      <span class="label">AC</span>
+      <span class="value">
+        {{actor.armorClass}}
+      </span>
+    </div>
+
+    <div class="actor-inspector-stat">
+      <span class="label">Perception</span>
+      <span class="value">
+        {{#if (gte actor.perception 0)}}+{{/if}}{{actor.perception}}
+      </span>
+    </div>
+
+    <div class="actor-inspector-stat">
+      <span class="label">Speed</span>
+      <span class="value">
+        {{actor.speed}} ft.
+      </span>
+    </div>
+
+  </div>
+
+</div>
